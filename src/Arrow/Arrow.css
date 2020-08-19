@@ -1,0 +1,33 @@
+:root {
+  --active-color: 5px solid #11ecda;
+  --no-active-color: 5px solid #aeb7b7;
+}
+.triangle-after,
+.triangle-before {
+  position: relative;
+}
+.triangle-before::before,
+.triangle-before::after,
+.triangle-after::before,
+.triangle-after::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  border: 5px solid transparent;
+}
+.triangle-before::before {
+  bottom: 10px;
+  border-bottom: var(--no-active-color);
+}
+.triangle-before::after {
+  bottom: -5px;
+  border-top: var(--active-color);
+}
+.triangle-after::before {
+  bottom: -5px;
+  border-top: var(--no-active-color);
+}
+.triangle-after::after {
+  bottom: 10px;
+  border-bottom: var(--active-color);
+}

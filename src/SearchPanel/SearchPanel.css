@@ -1,0 +1,19 @@
+.searchPanel {
+  position: relative;
+}
+.search {
+  width: 100%;
+  margin: 20px 0;
+  padding: 15px 0 15px 50px;
+  border: 1px solid #aca9a9;
+  border-radius: 10px;
+}
+.search:focus {
+  outline: none;
+}
+.icon-img {
+  top: 32px;
+  left: 15px;
+  position: absolute;
+  width: 24px;
+}

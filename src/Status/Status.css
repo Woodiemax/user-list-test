@@ -1,0 +1,19 @@
+.enable,
+.disable {
+  width: 70px;
+  padding: 2px 20px;
+  color: white;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.enable {
+  background-color: #22e3fa;
+}
+.disable {
+  background-color: #ccc;
+}
+
+.lock-img {
+  width: 24px;
+  height: 24px;
+}
